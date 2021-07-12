@@ -42,6 +42,8 @@ from django.http import HttpResponseRedirect
 # SHORTCUTS
 from django.shortcuts import get_object_or_404
 from django.shortcuts import render
+from django.shortcuts import redirect
+
 
 
 # TIMEZONE
@@ -72,9 +74,7 @@ class Person(models.Model):
     price = models.DecimalField(max_digits=10, decimal_places=2)
     rating = models.FloatField()
     email = models.EmailField()
-
-
-
+    serves_hot_dogs = models.BooleanField(default=False)
 
     data={
       'breed': 'labrador',
@@ -106,4 +106,5 @@ YEAR_IN_SCHOOL_CHOICES = [
 # Q objects
 from django.db.models import Q
 
-
+# OBJECT DOES NOT EXISTS
+from django.core.exceptions import ObjectDoesNotExist
