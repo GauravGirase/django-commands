@@ -12,3 +12,6 @@ if form.is_valid():
 
     send_mail(subject, message, sender, recipients)
     return HttpResponseRedirect('/thanks/')
+
+
+
