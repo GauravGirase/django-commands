@@ -15,3 +15,8 @@ def sub(x,y):
     return x-y
   else:
     return y-x
+
+class Employee:
+    def __inti__(self):
+        pass
+    
