@@ -19,4 +19,8 @@ def sub(x,y):
 class Employee:
     def __inti__(self):
         pass
+      
+class Teacher:
+  def where(self):
+    print("This changes has been made by another developer we need to sink this changes")
     
