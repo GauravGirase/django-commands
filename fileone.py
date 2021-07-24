@@ -32,3 +32,6 @@ conflicts test(Master)
 test conflicts(Local B-3)
 this code is written by Dev-1
 this code is written by dev-2
+dev-2-from master
+sorry i forgot to add this line of code,
+but i get to know about it after commiting
