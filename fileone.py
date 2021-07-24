@@ -28,3 +28,4 @@ class Teacher:
 class Student:
     def location(self):
         print("This changes has been made by Branch-3 locally")
+conflicts test(Master)
