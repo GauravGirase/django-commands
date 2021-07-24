@@ -4,3 +4,6 @@ this changes has been made by developer PQRS
 Developer xyz add some code here
 def add(x,y):
   return x+y
+
+def div(x,y):
+  return x/y
